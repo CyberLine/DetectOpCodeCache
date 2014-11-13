@@ -1,0 +1,19 @@
+{
+    "name": "cyberline/detect-opcode-cache",
+    "description": "Detect whether PHP is running an opcode cache",
+    "minimum-stability": "dev",
+    "homepage": "https://github.com/CyberLine/DetectOpCodeCache",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Alexander Over",
+            "email": "cyberline@php.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.0.0"
+    },
+    "autoload": {
+        "psr-4": {"DetectOpCodeCache\\": "src/"}
+    }
+}
