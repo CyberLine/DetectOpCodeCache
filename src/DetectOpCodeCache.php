@@ -11,13 +11,13 @@ final class DetectOpCodeCache
 {
   final public static function checkAll()
   {
-    return (self::hasXcache() or
-      self::hasWincache() or
-      self::hasApc() or
-      self::hasEaccelerator() or
-      self::hasIoncube() or
-      self::hasZend() or
-      self::hasNusphere() or
+    return (self::hasXcache() ||
+      self::hasWincache() ||
+      self::hasApc() ||
+      self::hasEaccelerator() ||
+      self::hasIoncube() ||
+      self::hasZend() ||
+      self::hasNusphere() ||
       self::hasOpCode()
     );
   }
