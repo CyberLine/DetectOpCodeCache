@@ -8,7 +8,7 @@
 [![Latest Unstable Version](https://poser.pugx.org/cyberline/detect-opcode-cache/v/unstable.svg)](https://packagist.org/packages/cyberline/detect-opcode-cache)
 [![License](https://poser.pugx.org/cyberline/detect-opcode-cache/license.svg)](https://packagist.org/packages/cyberline/detect-opcode-cache)
 
-Detect whether PHP is running an opcode cache
+Detect whether PHP is running an opcode cache.
 
 ## Example
 
